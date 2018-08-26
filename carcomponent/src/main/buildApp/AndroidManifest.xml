@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.carcomponent">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:label="@string/car_app_name"
+        android:name="com.baseres.BaseApplication"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">>
+
+
+        <activity android:name="com.carcomponent.CarListActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+
+        </activity>
+
+    </application>
+</manifest>

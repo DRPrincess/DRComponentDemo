@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.usercomponent"
+          xmlns:tools="http://schemas.android.com/tools">
+
+
+    <application
+        android:label="@string/user_app_name"
+        android:name="com.baseres.BaseApplication"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">>
+
+
+        <activity android:name="com.usercomponent.LoginActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+
+        </activity>
+
+    </application>
+</manifest>
